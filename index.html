@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ToDo List</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <!-- Latest compiled JavaScript -->
+	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+	    </script>
+	    <!-- Latest compiled and minified CSS -->
+	    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+	    <!-- Optional theme -->
+	    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" rel="stylesheet">
+	    <!-- Latest compiled and minified JavaScript -->
+	    <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	    </script>
+	    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+	    <link rel="stylesheet" type="text/css" href="assets/css/ToDo.css">
+	    <!-- <link rel="stylesheet/less" type="text/css" href="css/ToDo.less"> -->
+	</head>
+
+	<body>
+		<!-- <div class="container">
+			<p>
+				<label for="new-task">
+					Add Item
+				</label>
+				<input type="text" id="new-task">
+				<button>Add</button>
+			</p>
+
+			<h3>
+				ToDo	
+			</h3>
+			<ul id="incomplete-task">
+				<li>
+					<input type="checkbox">
+					<label id="label-incomplete-task">Task1</label>
+					<button type="button" class="edit btn">Edit</button>
+					<button type="button" class="delete btn">Delete</button>
+				</li>
+			</ul>
+
+			<h3>
+				Completed
+			</h3>
+			<ul id="completed-task">
+				<li>
+					<input type="checkbox" checked>
+					<label>Task2</label>
+					<button type="button" class="edit btn ">Edit</button>
+					<button type="button" class="delete btn ">Delete</button>
+				</li>
+				
+			</ul>
+		</div> -->
+
+
+		<div class="container">
+	      <p>
+	        <label for="new-task">Add Item</label>
+	        <input id="new-task" type="text" >
+	        <button id="add">Add</button>
+	        <div class="warning"></div>
+	      </p>
+	      
+	      <h3>Todo</h3>
+	      <ul id="incomplete-tasks">
+	        <li>
+		        <input type="checkbox">
+		        <label>Task 1</label>
+		        <input type="text">
+		        <button class="edit btn">Edit</button>
+		        <button class="delete btn">Delete</button>
+	        </li>
+
+	        <!-- <li class="editMode">
+		        <input type="checkbox">
+		        <label>Task 2</label>
+		        <input type="text" value="">
+		        <button class="edit btn">Edit</button>
+		        <button class="delete btn">Delete</button>
+	        </li> -->
+	        
+	      </ul>
+	      
+	      <h3>Completed</h3>
+	      <ul id="completed-tasks">
+	        <li>
+		        <input type="checkbox" checked>
+		        <label>Task 3</label>
+		        <input type="text">
+		        <button class="edit btn">Edit</button>
+		        <button class="delete btn">Delete</button>
+	        </li>
+	      </ul>
+    	</div>
+		
+		<!-- jQuery library -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="assets/js/ToDo.js"></script>
+	</body>
+</html>
